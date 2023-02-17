@@ -17,4 +17,6 @@ Per prima cosa andiamo su VCS dalla lista di Pycharm in alto
  - ricorda la differenza in questa zona tra aggiunti e non
  - selezionare i file aggiunti per committare i cambiamenti
  - creare un commento e cliccare su Commit
+ - i file committati torneranno in verde, finchè, una volta rimodificati torneranno in blu
+ - 
 """
