@@ -1,10 +1,20 @@
 
 
-from greatings import greets
+from greatings import greets, greets_to_translate
+from translate import Translator
+
+
+translator = Translator(to_lang='pt')
+
 
 # title mi sa che mette le prime lettere in maiuscolo
 for g in greets:
     print(f"{g.title()} versus {g}")
+
+print("\n\n")
+
+for g in greets_to_translate:
+    print(translator.translate(g).title())
 
 """
 Per prima cosa andiamo su VCS dalla lista di Pycharm in alto
