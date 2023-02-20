@@ -47,4 +47,9 @@ Storia dei commit:
   - adesso che abbiamo collegato il nostro account leghiamo questo progetto ad un repository personale
   - freccia verde in alto a dx (push) -> define remote
   - incolla il nome del repo e vai su push
+  
+ Aggiungere il file dei requirments:
+  - creare il file chiamandolo requirements.txt (nome importante)
+  - e poi sarà pycharm stesso a chiedere di popolarlo
+  - meglio farlo solo alla fine (anche per i builder può essere comodo)
 """
